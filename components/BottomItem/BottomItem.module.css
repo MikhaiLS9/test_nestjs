@@ -1,0 +1,22 @@
+.bottom_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 22px 0px 9px;
+}
+
+.link_item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .link {
+    color: #1473e6;
+  }
+  
