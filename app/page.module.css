@@ -2,7 +2,9 @@
   max-width: 1205px;
   width: 100%;
   padding: 10px;
-  background: rgb(255, 255, 255);
+  background: var(--main-color);
 
   margin: 0 auto;
+
+  
 }

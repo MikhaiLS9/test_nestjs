@@ -1,12 +1,11 @@
-
 import styles from "./MainCompressed.module.css";
 import { ItemCompressed } from "@/components/ItemCompressed/ItemCompressed";
-import { ITEMS_DATA } from "./MainCompressedData";
+import { itemsData } from "../../constItemsData.ts";
 
 export function MainCompressed(): JSX.Element {
   return (
     <div className={styles.items}>
-      {ITEMS_DATA.map((item) => (
+      {itemsData.map((item) => (
         <ItemCompressed key={item.id} header={item.header} text={item.text} />
       ))}
     </div>

@@ -1,4 +1,4 @@
-export const ITEMS_DATA = [
+export const itemsData = [
   {
     id: 1,
     text: `Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему
