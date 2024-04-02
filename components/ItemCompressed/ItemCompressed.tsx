@@ -12,12 +12,11 @@ export function ItemCompressed({
     <div className={styles.item}>
       <div className={styles.image_background}>
         <Image
-          className={styles.image}
           src="/catalina.png"
-          priority
-          width={300}
-          height={192}
           alt="Catalina"
+          layout="fill"
+          objectPosition="center"
+          objectFit="contain"
         />
       </div>
 
