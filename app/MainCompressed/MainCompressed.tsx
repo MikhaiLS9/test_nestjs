@@ -1,6 +1,6 @@
 import styles from "./MainCompressed.module.css";
 import { ItemCompressed } from "@/components/ItemCompressed/ItemCompressed";
-import { itemsData } from "../../constItemsData.ts";
+import { itemsData } from "../../const/constItemsData";
 
 export function MainCompressed(): JSX.Element {
   return (

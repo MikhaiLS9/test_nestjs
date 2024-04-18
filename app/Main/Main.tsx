@@ -1,10 +1,17 @@
+import Headline from "@/components/Headline/Headline";
 import Image from "next/image";
 
 export function Main(): JSX.Element {
   return (
     <section>
-      <h1>Как работать с CSS Grid</h1>
-      <Image src="/catalina.png" priority width={608} height={460} alt="Catalina" />
+      <Headline tag="h2">Как работать с CSS Grid</Headline>
+      <Image
+        src="/catalina.png"
+        priority
+        width={608}
+        height={460}
+        alt="Catalina"
+      />
       <p>
         Грид-раскладка (CSS Grid Layout) представляет собой двумерную систему
         сеток в CSS. Гриды подойдут и для верстки основных областей страницы, и
@@ -16,5 +23,3 @@ export function Main(): JSX.Element {
     </section>
   );
 }
-
-
