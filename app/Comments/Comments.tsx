@@ -6,7 +6,7 @@ import Headline from "@/components/Headline/Headline";
 export function Comments(): JSX.Element {
   return (
     <section>
-      <Headline>Комментарии</Headline>
+      <Headline tag="h3">Комментарии</Headline>
       <div>
         <h3>
           Василий Пупкин
